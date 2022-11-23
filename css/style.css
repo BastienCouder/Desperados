@@ -1,0 +1,479 @@
+/*Corps de la page*/
+
+body {
+    background-color: #ffffff;
+    width: 100%;
+    font-family: 'Sora', sans-serif;
+}
+
+/*Elément de Texte*/
+/*----------------*/
+
+.titreniv1 {
+    color: #ffffff;
+    font-family: 'Oswald';
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.titreniv2 {
+    color: #c73c39;
+    font-family: 'Oswald';
+    font-size: 1.7em;
+}
+
+.paragraphe {
+    color: #3D3D3D;
+    font-family: 'Sora';
+    font-size: 1em;
+    line-height: 25px;
+}
+
+span {
+    font-weight: bold;
+}
+
+ul {
+    color: #3D3D3D;
+    font-family: 'Sora';
+    font-size: 1em;
+    line-height: 25px;
+    list-style: url('img/list_beer.png');
+}
+
+/*Elément Logo*/
+/*--------------*/
+
+.logo {
+    width: auto;
+    height: 80%;
+}
+
+/*Elements Lien cliquable*/
+
+.link {
+    height: auto;
+    margin-right: 2em;
+    margin-bottom: 1.5em;
+}
+
+.link a {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link a:hover {
+    color: #c73c39;
+}
+
+/*Header Body*/
+/*-----------*/
+
+header {
+    background: #ffbf00;
+    opacity: 90%;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    z-index: 2;
+    box-shadow: 0px 2px 4px #ff8800;
+}
+
+.header-logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-navigation {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-media {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 0px 10px 0px;
+}
+
+nav {
+    font-size: 1em;
+    font-weight: bold;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8px;
+    border-top: 3px solid #ffffff;
+}
+
+.header-image {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-photo {
+    width: auto;
+    height: 90%;
+}
+
+/*Header Links*/
+
+.header-media a,
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+/*Header hover*/
+
+.header-media a:hover,
+nav a:hover {
+    color: #c73c39;
+}
+
+/*Footer*/
+/*------*/
+
+footer {
+    background: #efefef;
+    color: #3D3D3D;
+    font-weight: bold;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.footer-logo {
+    width: auto;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.footer-nav {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-media {
+    font-size: 0.9em;
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-media-photo {
+    width: auto;
+    height: 50px;
+}
+
+.footer-mentions {
+    font-size: 0.8em;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.footer-copyright {
+    font-size: 0.7em;
+    width: 10%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer-avertissement {
+    background-color: #ffffff;
+    font-size: 0.65em;
+    width: 100%;
+    height: auto;
+    display: flex;
+    place-content: center;
+    padding-top: 10px;
+}
+
+/*Footer links*/
+
+.footer-media a {
+    color: #3D3D3D;
+}
+
+.button {
+    background: #3D3D3D;
+    color: #ffffff;
+    font-size: 1.2em;
+    opacity: 0.7;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20%;
+    text-decoration: none;
+}
+
+/*banniere*/
+/*--------*/
+
+.banniere-header {
+    background-color: #ffbf00;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.banniere-footer {
+    font-size: 0.75em;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+
+/*Image de présentation*/
+/*---------------------*/
+
+.presentation {
+    background-image: url("img/despe_banniere.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/*Section description*/
+/*-------------------*/
+
+.description {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.description-image {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.description-texte {
+    background: #efefef;
+    width: 65%;
+    height: auto;
+}
+
+.description-titre,
+.description-paragraphe {
+    width: 70%;
+    height: auto;
+    padding-left: 20px;
+}
+
+/*article populaire*/
+/*--------*/
+
+.article-populaire {
+    background: #ffbf00;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.populaire {
+    background: #efefef;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5%;
+}
+
+.populaire1,
+.populaire2 {
+    margin-bottom: 40px;
+}
+
+.populaire-image {
+    background: #efefef;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.populaire-photo {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.populaire-texte {
+    width: 40%;
+    height: 100%;
+}
+
+.populaire-titre {
+    text-align: center;
+    width: 85%;
+    height: 100%;
+}
+
+.populaire-paragraphe {
+    padding: 0px 15px 0px 10px;
+}
+
+/*article à propos*/
+/*----------------*/
+
+#article-propos {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.banniere-header-propos {
+    background: #efefef;
+    width: 96%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.titreniv1-propos {
+    color: #c73c39;
+}
+
+.propos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.propos-image {
+    background: #efefef;
+    width: auto;
+    height: 500px;
+}
+
+.propos-photo {
+    width: auto;
+    height: 100%;
+}
+
+.propos-texte {
+    background: #efefef;
+    width: auto;
+    height: auto;
+    padding: 0px 20px;
+    margin: 20px 30px;
+}
+
+#bottle {
+    width: 300px;
+    height: 300px;
+}
+
+/*article produits*/
+/*----------*/
+
+#article-produit {
+    background: #ffbf00;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 35px auto 0px auto;
+}
+
+.produit {
+    background: #efefef;
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    border-radius: 5%;
+}
+
+.produit-image,
+.produit-texte {
+    width: 100%;
+    height: auto;
+}
+
+.produit-photo {
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.produit-titre {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.produit-paragraphe {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 15px;
+}
